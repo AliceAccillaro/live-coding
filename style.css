@@ -1,0 +1,54 @@
+*{ 
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+     font-family: "Electrolize", sans-serif;
+}
+
+/* variabili */
+:root{
+    --bl: rgb(0, 82, 255);
+    --lb: rgb(216, 249, 255);
+    --w: rgb(247, 247, 247);
+}
+
+p{
+    background-color: var(--bl);
+    color: var(--lb);
+}
+
+h1{
+    color: var(--bl);
+    background-color: var(--lb);
+}
+
+body{
+    background-color: var(--lb);
+    color: var(--w);
+}
+
+.bg-bl{
+    background-color: var(--bl);
+}
+
+.bg-lb{
+    background-color: var(--lb);
+}
+
+.bg-w{
+    background-color: var(--w);
+}
+
+.text-bl{
+    color: var(--bl);
+}
+
+.text-lb{
+    color: var(--lb);
+}
+
+.text-w{
+    color: var(--w);
+}
+
