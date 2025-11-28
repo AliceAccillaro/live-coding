@@ -1,54 +1,86 @@
-*{ 
-  font-family: "Montserrat", sans-serif;
+* {
+    font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3, .h1, .h2, .h3{
-     font-family: "Electrolize", sans-serif;
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+    font-family: "Electrolize", sans-serif;
 }
 
 /* variabili */
-:root{
+:root {
     --bl: rgb(0, 82, 255);
     --lb: rgb(216, 249, 255);
     --w: rgb(247, 247, 247);
 }
 
-p{
+p {
     background-color: var(--bl);
     color: var(--lb);
 }
 
-h1{
+/* h1 {
     color: var(--bl);
     background-color: var(--lb);
-}
+} */
 
-body{
+body {
     background-color: var(--lb);
     color: var(--w);
 }
 
-.bg-bl{
+.bg-bl {
     background-color: var(--bl);
 }
 
-.bg-lb{
+.bg-lb {
     background-color: var(--lb);
 }
 
-.bg-w{
+.bg-w {
     background-color: var(--w);
 }
 
-.text-bl{
+.text-bl {
     color: var(--bl);
 }
 
-.text-lb{
+.text-lb {
     color: var(--lb);
 }
 
-.text-w{
+.text-w {
     color: var(--w);
 }
 
+/* header */
+
+.header-custom {
+    height: 92vh;
+    background-image: linear-gradient(rgba(0, 82, 255, 0.3), rgba(0, 82, 255, 0.3)), url(https://picsum.photos/2000);
+    background-position: center;
+    background-size: cover;
+}
+
+/* navbar */
+
+.navbar {
+    min-height: 8vh;
+}
+
+.nav-link {
+    color: var(--w);
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--w);
+}
+
+.logo {
+    width: 50px;
+}
