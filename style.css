@@ -18,19 +18,9 @@ h3,
     --w: rgb(247, 247, 247);
 }
 
-p {
-    background-color: var(--bl);
-    color: var(--lb);
-}
-
-/* h1 {
-    color: var(--bl);
-    background-color: var(--lb);
-} */
-
 body {
     background-color: var(--lb);
-    color: var(--w);
+    color: var(--bl);
 }
 
 .bg-bl {
@@ -55,6 +45,10 @@ body {
 
 .text-w {
     color: var(--w);
+}
+
+.border-w {
+    border: 2px solid var(--w);
 }
 
 /* header */
@@ -83,4 +77,25 @@ body {
 
 .logo {
     width: 50px;
+}
+
+/* icons */
+
+.linea {
+    height: 5px;
+    background-color: var(--bl);
+    width: 60%;
+    position: relative;
+}
+
+.linea::before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: var(--w);
+    border: 2px solid var(--bl);
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 10px);
 }
